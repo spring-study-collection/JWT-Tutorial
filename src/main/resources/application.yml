@@ -26,3 +26,9 @@ spring:
 logging:
   level:
     org.hibernate.SQL: debug
+
+jwt:
+  header: Authorization
+  secret: c3ByaW5nLWJvb3Qtand0LXR1dG9yaWFsLXNlY3JldC1rZXktc3R1ZHktZW5jb2Rpbmctc3ByaW5n
+  #  LWJvb3Qtand0LXR1dG9yaWFsLXNlY3JldC1rZXktc3R1ZHktZW5jb2RpbmcK
+  token-validity-in-seconds: 86400
